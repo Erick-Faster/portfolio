@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -65,17 +67,369 @@ body{
         <!--<h1>Portfolio de Erick Faster</h1>-->
         <div id="section1">
             <h2></h2>
-            {% include "intro.html" %}
+            
+            <!--Intro-->
+
+
+            <div class="container">
+                <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="view">
+                        <img class="d-block w-100" src="static/images/intro1.jpg"
+                            alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                        <h3 class="h3-responsive">Desenvolvimento de Soluções em Python</h3>
+                        <p>Web-sites e Web-APIs em Flask</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                        <img class="d-block w-100" src="static/images/intro2.jpg"
+                            alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                        <h3 class="h3-responsive">Machine Learning e AI</h3>
+                        <p>Soluções através do aprendizado de máquina</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                        <img class="d-block w-100" src="static/images/intro4.jpg"
+                            alt="Third slide">
+                        <div class="mask rgba-black-slight"></div>
+                        </div>
+                        <div class="carousel-caption">
+                        <h3 class="h3-responsive">Processamento de Linguagens Naturais</h3>
+                        <p>Do texto para a inovação</p>
+                        </div>
+                    </div>
+                    </div>
+                    <!--/.Slides-->
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                    <!--/.Controls-->
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+
+            <!--End Intro-->
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <hr>
         <div id="section2">
             <h2>Sobre</h2>
-            {% include "about.html" %}
+
+            <!--About-->
+
+            <p>
+                Graduado no curso de Bacharelado em Ciência e Tecnologia, e graduando em Engenharia de Materiais e 
+                Ciência da Computação pela Universidade Federal do ABC em Santo André (SP). Programador Python, possui 
+                experiência com Machine Learning para classificação, regressão, processamento de linguagens naturais, 
+                séries temporais e detecção de anomalias. Possui também experiencia com desenvolvimento de APIs REST via Flask. 
+                Realizou intercâmbio na Technische Universität Ilmenau, na Alemanha, onde trabalhou em laboratório de nanotecnologia pelo 
+                Institut für Mikro- und Nanoelektronik. Habilidades linguísticas incluem inglês e alemão avançado. Participou do 
+                Programa de Educação Tutorial (PET), atuando em diversos projetos nos pilares de pesquisa, ensino e inovação.
+                 No momento integra a equipe de Data Science na Builtcode como estagiário.
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/erickfasterra/" class="title">Linkedin</a>
+            </p>
+
+            <!-- End About-->
+
+
+
+
+
+
+
+
+
+
         </div>
         <hr>
         <div id="section3">
             <h2>Projetos Pessoais</h2>
-            {% include "projects.html" %}
+            
+            <!-- Projects -->
+
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="static/images/twitter.jpg"
+                          alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                
+                      <!--Card content-->
+                      <div class="card-body">
+                
+                        <!--Title-->
+                        <h4 class="card-title">Gerador de Tweets</h4>
+                        <!--Text-->
+                        <p class="card-text">Geração de Tweets que imita estilo de escrita do autor, baseado na extração de tweets antigos.
+                        </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <a href="https://github.com/Erick-Faster/twitter-generator/blob/master/Tweets-Generator.ipynb" class="btn btn-primary">Notebook</a>
+                
+                      </div>
+                
+                    </div>
+                    <!-- Card -->
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="static/images/anomalia1.jpg"
+                          alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                
+                      <!--Card content-->
+                      <div class="card-body">
+                
+                        <!--Title-->
+                        <h4 class="card-title">Detecção de Anomalias</h4>
+                        <!--Text-->
+                        <p class="card-text">Projeto de previsão e detecção de anomalias para um Dataset extraído do Kaggle. (Notebook em breve)
+                        </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-primary" disabled>Notebook</button>
+                
+                      </div>
+                
+                    </div>
+                    <!-- Card -->
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="static/images/characterlevel.jpg"
+                          alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                
+                      <!--Card content-->
+                      <div class="card-body">
+                
+                        <!--Title-->
+                        <h4 class="card-title">NLP Character-level</h4>
+                        <!--Text-->
+                        <p class="card-text">Análise da previsão de gêneros dos substantivos em alemão utilizando NLP char-level e LSTM (Notebook em breve)
+                        </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-primary" disabled>Notebook</button>
+                
+                      </div>
+                
+                    </div>
+                    <!-- Card -->
+                  </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/previsao.jpg"
+                            alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Toolbox para Séries Temporais</h4>
+                          <!--Text-->
+                          <p class="card-text">Análise de séries temporais utilizando ARIMA, SARIMAX, LSTM, Prophet e Sktime (Notebook em breve)</p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <button type="button" class="btn btn-primary" disabled>Notebook</button>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/project4.jpg"
+                            alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Gerbot</h4>
+                          <!--Text-->
+                          <p class="card-text">Chatbot construido com NLP e redes neurais profundas. Este interage com estudantes do idioma alemão,
+                             além de corrigir erros gramaticais comuns do nível A1</p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <a href="https://github.com/Erick-Faster/gerbot-api" class="btn btn-primary">Github</a>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/fresa.jpg" alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Previsão de Rugosidade em Peças Usinadas</h4>
+                          <!--Text-->
+                          <p class="card-text">Trabalho apresentado no IX Encontro de Iniciação Científica da UFABC, com o objetivo de comparar diversos métodos de ML para a previsão da rugosidade superficial de materiais após o processamento de usinagem.
+                          </p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <a href="https://github.com/Erick-Faster/poster-usinagem/blob/main/Poster_2019_Erick_Fasterra_da_Silva%20v3.pdf" class="btn btn-primary">Poster</a>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/project3.jpg" alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Projeto Corona Market</h4>
+                          <!--Text-->
+                          <p class="card-text">Site para conectar voluntários de uma comunidade dispostos à realizar compras para pessoas em grupo de risco
+                            em tempos de Covid-19, motivando-as a não saírem de casa.</p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <a href="https://github.com/Erick-Faster/corona-market-api" class="btn btn-primary">Github</a>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/project2.jpg" alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Buscador de Artigos Relacionados ao Covid-19</h4>
+                          <!--Text-->
+                          <p class="card-text">Aplicação que realiza busca de conjunto de palavras-chave em + de 60 mil artigos científicos relacionados ao Covid-19,
+                            extraídos do Kaggle. (Notebook em Breve)</p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <button type="button" class="btn btn-primary" disabled>Github</button>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+              
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="card h-100">
+                        <!--Card image-->
+                        <div class="view overlay">
+                          <img class="card-img-top" src="static/images/niqueis.jpg"
+                            alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                  
+                        <!--Card content-->
+                        <div class="card-body">
+                  
+                          <!--Title-->
+                          <h4 class="card-title">Multi Armed Bandit Problem aplicado ao Covid-19</h4>
+                          <!--Text-->
+                          <p class="card-text">Análise superficial da chance de contágio por Covid-19 utilizando alguns conceitos de aprendizado por reforço (Notebook em breve)</p>
+                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                          <button type="button" class="btn btn-primary" disabled>Notebook</button>
+                  
+                        </div>
+                  
+                      </div>
+                      <!-- Card -->
+                    </div>
+              
+                  </div>
+              </div>
+
+              <!-- End Projects -->
             
         </div>
         <hr>
@@ -83,30 +437,611 @@ body{
         <p>Habilidades mais relevantes de programação</p>
         <div id="section4dot1">
             <h4>Python</h4>
-            {% include "python-skills.html" %}
+
+
+            <!-- Python -->
+
+
+            <div class="container">
+                <div class="card-deck">
+                  <div class="row">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/flask1.png" title="Flask" alt="Flask">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/spacy1.png" title="SpaCy" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/tensor1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/pandas1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/numpy1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/matplotlib1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Python-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
         </div>
         <div id="section4dot2">
             <h4>Outros</h4>
-            {% include "program-skills.html" %}
+       
+            <!-- Begin Others -->
+
+            <div class="container">
+                <div class="card-deck">
+                  <div class="row">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/postgre.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/html1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/bootstrap1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/s31.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <img class="card-img-top" src="static/images/docker1.png" alt="Card image">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="card">
+                          <div class="card-body text-center">
+                            <img class="card-img-top" src="static/images/git1.png" alt="Card image">
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Others -->
+      
         </div>
         <div id="section4dot3">
             <h4>Idiomas</h4>
-            {% include "other-skills.html" %}
+            
+            <!-- Idiomas -->
+
+            <div class="card-deck">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="card-text">Inglês (Avançado)</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="card-text">Alemão (Avançado)</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="card-text">Francês (Intermediário)</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="card-text">Espanhol (Intermediário)</p>
+                  </div>
+                </div>
+            
+              </div>
+
+              <!-- End Idiomas -->
+
         </div>
         <hr>
         <div id="section5">
             <h2>Linha do Tempo</h2>
-            {% include "timeline.html" %}
+            
+            <!-- Timeline -->
+
+            <div class="container">
+                <span class="font-weight-bold">2020</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Predição de Consumo de Energia</a>
+                        </div>
+                        <p>Avaliação de diversos métodos de séries temporais para prever o consumo de energia de um cliente.
+            
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] API Análise de Crédito</a>
+                        </div>
+                        <p>Desenvolvimento de uma API cognitiva que realiza analise de crédito para cliente,
+                        em conjunto com a equipe de Ciência de Dados da Builtcode
+            
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Dados Abertos de Importação de Produtos</a>
+                        </div>
+                        <p>Desenvolvimento de uma API cognitiva que utiliza aprendizado de máquina e
+                        processamento de linguagens naturais para identificar produtos através das descrições obtidas no 
+                        site de dados abertos de importações. O projeto foi realizado em conjunto com a equipe de desenvolvimento
+                        e de ciência de dados da Builtcode.
+                        </p>
+                    </li>
+                        <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Portfolio</a>
+                        </div>
+                        <p>Finalizei meu portfolio profissional, desenvolvido em Python via Flask.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Corretor de Escrita em Alemão</a>
+                        </div>
+                        <p>Finalizei uma aplicação que corrige respostas para perguntas básicas em alemão, avaliando contexto, ortografia e gramática do nível A1. Esta aplicação
+                        dispõe de API para realizar a verificação e de Front-End para interagir com o usuário, ambos utilizando Flask. Este projeto permitiu unir os conhecimentos
+                        de idiomas estrangeiros com processamento de linguagens naturais em python, abrindo caminho para a inovação.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Buscador de Artigos Relacionados ao Covid-19</a>
+                        </div>
+                        <p>Finalizei um projeto que realiza a busca de um conjunto de palavras-chave em mais de 60 mil artigos científicos relacionados ao Covid-19 extraídos do Kaggle</p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fas fa-coffee"></i>
+                            <a href="/" class="title">[Estudo] Machine Learning e Deep Learning</a>
+                        </div>
+                        <p>Realizei diversos cursos de Machine Learning e Deep Learning, e apliquei seus conceitos sob a orientação do Prof Felipe Teodoro, MBA em inteligência artificial e machine learning da FIAP e
+                            Sócio da empresa Builtcode. Aprendi também diversas técnicas de customização de modelos de Machine Learning utilizando o Tensorflow 2.0.  </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fas fa-coffee"></i>
+                            <a href="/" class="title">[Estudo] Processamento de Linguagens Naturais em Python</a>
+                        </div>
+                        <p>Realizei alguns cursos na Udemy focados em processamento de linguagem natural e pré-processamento de sistemas de aprendizado de máquina.
+                        Para isso, estudei ferramentas como o Pandas, Numpy, Matplotlib e SpaCy </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Corona Market - Conectar voluntários para proteger pessoas em grupo de risco</a>
+                        </div>
+                        <p>Finalizei a versão 1.0 de uma aplicação em Flask que permite conectar voluntários de uma comunidade dispostos à realizar compras para pessoas em grupo de risco em tempos de Covid-19, motivando-os a não saírem de casa.
+                        Esta aplicação foi desenvolvida utilizando Back-End e Front-End em Flask, com Flask-Restful e Flask-Sqlalchemy. </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Projeto] Avaliação de Risk Money</a>
+                        </div>
+                        <p>Desenvolvi uma aplicação que utiliza aprendizado de máquina não-supervisionado
+                        para determinar a homologação de fornecedores, dado fatores de risk money. O projeto também incluiu a
+                        análise de clusterização do grupos homologados e não homologados, bem como a apresentação 
+                        gráfica destes dados.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-cube" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Hobby] Pokedex API</a>
+                        </div>
+                        <p>A fim de aplicar os conhecimentos de ASP.NET Core e MySQL, desenvolvi uma API completa que permite adicionar, extrair,
+                        modificar ou deletar informações de Pokemons em um banco de dados. A API também possui um sistema de autenticação e
+                        autorização, CORS e HealthCheck, além de documentação em Swagger.  </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fas fa-coffee"></i>
+                            <a href="/" class="title">[Estudo] MySQL e SQL Server</a>
+                        </div>
+                        <p>Realizei um curso na Udemy sobre MySQL aplicado e utilização do SQL Server. Aprendi também diversas
+                        técnicas de otimização de desempenho e de controle e gestão de dados. </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fas fa-coffee"></i>
+                            <a href="/" class="title">[Estudo] ASP.NET Core - Web API</a>
+                        </div>
+                        <p>Finalizei um curso na plataforma desenvolvedor.io, focado no desenvolvimento de web APIs utilizando 
+                        o ASP.NET Core. Além do curso, contei com o auxílio dos outros desenvolvedores da Builtcode para este aprendizado. </p>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-language" aria-hidden="true"></i>
+            
+                            <a href="/" class="title">[Idioma] 400 Alunos!</a>
+                        </div>
+                        <p>Um total de 400 alunos finalizaram as aulas de alemão em algum nível sob minha tutoria. Aproveito este espaço para parabeniza-los
+                        pelo empenho e pela dedicação! Vocês são demais! Devido à pandemia do novo coronavirus, comecei também a ministrar aulas no modelo EaD. 
+                        </p>
+                    </li>
+                </ul>
+            
+            
+                <span class="font-weight-bold">2019</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <a href="/" class="title">[Profissional] Builtcode - The Cognitive Company</a>
+                    </div>
+                    <p>Entrei na Builtcode como estagiário, integrando a equipe de ciência de dados da empresa. Uma nova oportunidade para aprender
+                    novas tecnologias em uma empresa preocupada em estar sempre atualizada no mercado de TI.
+                    </p>
+                </li>
+                    <li>
+                        <div class="icon-title">
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                            <a href="/" class="title">[Pesquisa] IX Encontro de Iniciação Científica na UFABC</a>
+                        </div>
+                        <p>Apresentei trabalho científico sob o título:  
+                        "Estudo comparativo de métodos de inteligência artificial para modelagem e previsão de rugosidade em peças usinada",
+                        apresentado em simpósio e orientado pelo Professor Dr. Wallace Gusmão Ferreira. </p>
+                    </li>
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-plane" aria-hidden="true"></i>
+                        <a href="/" class="title">[Viagem] Peru</a>
+                    </div>
+                    <p>Realizei um mochilão de 3 semanas no Peru, passando por diversas cidades como Cusco, Puno,
+                    Arequipa, Ica e Lima, adquirindo um imenso conhecimento cultural sobre o país, além de realizar
+                    algumas conexões e praticar o espanhol. </p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fas fa-coffee"></i>
+                        <a href="/" class="title">[Estudo] Git e Github</a>
+                    </div>
+                    <p>Realizei dois cursos na plataforma Udemy focados em Git e Github. </p>
+                </li>
+            
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-cube" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Hobby] Miniprojetos em Python</a>
+                    </div>
+                    <p>Desenvolvi diversos miniprojetos na linguagem Python, tais como uma calculadora simples,
+                        decriptador de cifras de Vigenère e outros, a fim de aprofundar os conhecimentos em Python.  </p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Projeto] Conversor de Flash-Cards para o Memorion</a>
+                    </div>
+                    <p>Desenvolvi uma aplicação em Python que, dado como entrada uma lista de palavras em alemão, realiza web-scrapping para
+                obter suas traduções, gêneros, tipos e exemplos de frases com a utilização destas, e converte para um arquivo xlsx. no modelo
+                de flash-cards, para ser aplicado no aplicativo "Memorion", para estudo pessoal do idioma. O objetivo também foi aplicar os
+                conhecimentos obtidos no curso "Automate the Boring Stuff with Python". </p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fas fa-coffee"></i>
+                        <a href="/" class="title">[Estudo] Automate the Boring Stuff with Python</a>
+                    </div>
+                    <p>Realizei um curso na Udemy para automação de processos comumente maçantes em Python. </p>
+                </li>
+                </ul>
+            
+            
+                <span class="font-weight-bold">2018</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Uni] Bacharelado em Ciência da Computação (UFABC)</a>
+                    </div>
+                    <p>Iniciei os estudos de formação específica na Universidade Federal do ABC, na área de Ciência da Computação. </p>
+                </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                            <a href="/" class="title">[Viagem] Região sul do Brasil e Paraguai</a>
+                        </div>
+                        <p>Realizei um mochilão de 3 semanas, passando por Rio Grande do Sul, Santa Catarina e Paraná, além de conhecer
+                        um pedacinho do leste do Paraguai, extendendo o conhecimento cultural acerca de meu próprio país. </p>
+                    </li>
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Uni] Diploma de Bacharelado em Ciência & Tecnologia (UFABC)</a>
+                    </div>
+                    <p>Obtive o diploma do curso de Bacharelado em Ciência & Tecnologia pela Universidade Federal do ABC. Trata-se de um curso
+                    interdisciplinar que permite ao profissional desenvolver e aplicar conceitos aprofundados nas áreas de computação, química, física, biologia, matemática e humanas,
+                    incentivando-o a desencadear o processo de aprendizagem contínua.</p>
+                </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fas fa-coffee"></i>
+                            <a href="/" class="title">[Estudo] Excel Avançado</a>
+                        </div>
+                        <p>Realizei alguns cursos focados em Excel, como o "Excel 2016 - O Curso Definitivo - do Básico ao Avançado", 
+                        e outro de nível avançado, como o "Curso de VBA para Excel". </p>
+                    </li>
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-language" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Idioma] Ensino de Alemão (Nível B1) e material didático</a>
+                    </div>
+                    <p>Ministrei aulas de alemão pela primeira vez para um grupo de nível B1. Neste período, finalizei meu primeiro material
+                    didático próprio de alemão para o nível A1, o que foi bem recebido pelos alunos. Com isso, aprendi também diversas táticas
+                    para a elaboração de materiais didáticos para qualquer área em que eu possua afinidade.
+                    </p>
+                </li>
+                </ul>
+            
+            
+                <span class="font-weight-bold">2017</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <a href="/" class="title">[Voluntário] Cursinho Popular CEU São Mateus</a>
+                    </div>
+                    <p>Ministrei voluntariamente aulas de química orgânica pelo período de 2 semestres em um projeto de cursinho popular no
+                    CEU São Mateus, direcionado para alunos do ensino médio em situação de vulnerabilidade social. </p>
+                </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                            <a href="/" class="title">[Viagem] Bolívia e Chile</a>
+                        </div>
+                        <p>Realizei um mochilão de 3 semanas pela Bolívia e pelo Chile, adquirindo uma carga cultural enorme de ambos os países,
+                        além de realizar conexões e praticar o espanhol.
+                        </p>
+                    </li>
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-language" aria-hidden="true"></i>
+            
+                        <a href="/" class="title">[Idioma] Ensino de Alemão (Níveis A1 e A2)</a>
+                    </div>
+                    <p>Ministrei minhas primeiras aulas de alemão em grupo e em modelo particular, para os nívels A1 e A2. Obtive um excelente
+                    feedback dos alunos, o que me motivou a continuar com as aulas e à elaborar um material didático próprio para as aulas.
+                    </p>
+                </li>
+                </ul>
+            
+            
+                <span class="font-weight-bold">2016</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-plane" aria-hidden="true"></i>
+                        <a href="/" class="title">[viagem] Retorno ao Brasil</a>
+                    </div>
+                    <p>No fim do ano retornei do intercâmbio na Alemanha para o Brasil, dando continuidade aos estudos na UFABC.
+                    </p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <a href="/" class="title">[Voluntário] Auxiliar em laboratório de Nanotecnologia</a>
+                    </div>
+                    <p> Auxiliei por um semestre o desenvolvimento de pesquisas científicas nos campos de Nanoxerografia e self assembly, pelo Institut für Mikro- und Nanoelektronik,
+                        Technische Universität Ilmenau. Também cursei diversas disciplinas ao longo deste semestre. </p>
+                </li>
+                    <li>
+                    <div class="icon-title">
+                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <a href="/" class="title">[Idioma] Alemão Avançado C1</a>
+                    </div>
+                    <p>Realizei os cursos Deutsch als Fremdsprache B2+ (Alemão para Estrangeiros), Wissenschaftliches Schreiben B2/C1 (Alemão para Escrita Científica)
+                            e Technisches Deutsch C1 (Alemão Técnico) em Ilmenau, Alemanha.
+                    </p>
+                </li>
+                </ul>
+            
+            
+                <span class="font-weight-bold">2015</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <a href="/" class="title">[Uni] Intercâmbio na Alemanha - Ilmenau</a>
+                    </div>
+                    <p>Ainda no intercâmbio, estudei Ciência dos Materiais na Technische Universität Ilmenau (TU Ilmenau). Neste ano, finalizei o curso de
+                    verão de alemão DaF B2, e iniciei o semestre letivo na Universidade.
+                    </p>
+                </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                            <a href="/" class="title">[viagem] Intercâmbio na Alemanha - Kassel</a>
+                        </div>
+                        <p>Realizei intercâmbio acadêmico na Alemanha, patrocinado pela CAPES. Em Kassel, realizei um curso intensivo de alemão
+                        por 2 meses, obtendo assim certificação do nível B1 de alemão.
+                        </p>
+                    </li>
+            
+                </ul>
+            
+            
+                <span class="font-weight-bold">2014</span>
+                <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <a href="/" class="title">[Voluntário] Coordenador da comissão da III Semana de Engenharia de Materiais</a>
+                    </div>
+                    <p> Atuei como coordenador voluntário na comissão de organização da III Semana de Engenharia de Materiais na UFABC. O objetivo do evento foi
+                        de aproximar os alunos da Universidade com as empresas, e contou com a participação de diversas empresas do ramo. </p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        <a href="/" class="title">[Pesquisa] IV Encontro de Iniciação Científica na UFABC</a>
+                    </div>
+                    <p>Apresentei trabalho científico sob o título
+                        "Avaliação Reológica de Suspensões de Alumina com Policloreto de Alumínio", para o IV Encontro de Iniciação Científica, realizado pela UFABC. Neste trabalho,
+                    fui orientado pelo Prof Dr. Luiz Fernando Grespan Setz.</p>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <a href="/" class="title">[Profissional] Programa de Educação Tutorial - PET</a>
+                    </div>
+                    <p>Participei por um ano e 6 meses do PET - “Programa de Educação Tutorial - Ciência, Tecnologia & Inovação”, fomentado pelo MEC. O programa é composto por 12 alunos com desempenho acadêmico excepcional, 
+                        os quais realizam atividades que englobam seus 3 pilares: pesquísa, ensino e extensão.
+                    </p>
+                </li>
+                </ul>
+            </div>
+
+            <!-- End Timeline -->
+
         </div>
         <hr>
         <div id="section6">
             <h2>Artigos</h2>
-            {% include "hobbies.html" %}    
+            <p>Em desenvolvimento...</p>   
         </div>
         <hr>
         <div id="section7">
             <h2>Contato</h2>
-            {% include "contact.html" %}
+            
+            <!-- Contato -->
+
+
+            <div class="container">
+
+                <div class="icon-title">
+                    <p>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                        <a href="https://www.linkedin.com/in/erickfasterra/" class="title">Linkedin</a>
+                    </p>
+                </div>
+
+                <div class="icon-title">
+                    <p>
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                
+                        <a href="https://github.com/Erick-Faster" class="title">Github</a>
+                    </p>
+                </div>
+
+                <div class="icon-title">
+                    <p>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+                        <a href="https://twitter.com/faster_erick" class="title">Twitter</a>
+                    </p>
+                </div>
+                <div class="icon-title">
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                        <a href="mailto:erick.fasterra@gmail.com" class="title">E-Mail</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
         </div>
         <hr>
     </div>
