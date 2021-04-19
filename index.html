@@ -40,16 +40,13 @@ body{
                         <a href="#section2" class="nav-link">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section3" class="nav-link">Projetos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Skills</a>
-                        <div class="dropdown-menu">
-                            <a href="#section4dot1" class="dropdown-item">Python</a>
-                            <a href="#section4dot2" class="dropdown-item">Outros</a>                        </div>
+                        <a href="#section3" class="nav-link">Serviços</a>
                     </li>
                     <li>
-                        <a href="#section5" class="nav-link">Linha do Tempo</a>
+                      <a href="#section4" class="nav-link">Projetos</a>
+                    </li>
+                    <li>
+                    <a href="#section5" class="nav-link">Tecnologias</a>
                     </li>
                     <li>
                         <a href="#section6" class="nav-link">Artigos</a>
@@ -64,20 +61,15 @@ body{
     <div class="container">
         <!--<h1>Portfolio de Erick Faster</h1>-->
         <div id="section1">
-            <h2></h2>
-            
+          <img class="d-block w-100" src="static/img/banner.jpg" alt="Second slide">
             <!--Intro-->
 
-            <div class="container">
-                <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-                    <!--Indicators-->
+                <!-- <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-2" data-slide-to="2"></li>
                     </ol>
-                    <!--/.Indicators-->
-                    <!--Slides-->
                     <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="view">
@@ -93,22 +85,18 @@ body{
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!--Mask color-->
                         <div class="view">
-                        <img class="d-block w-100" src="static/images/intro2.jpg"
+                        <img class="d-block w-100" src="static/img/title5.jpg"
                             alt="Second slide">
                         <div class="mask rgba-black-strong"></div>
                         </div>
                         <div class="carousel-caption">
                             <div class="d-none d-md-block">
                                 
-                                <h3 class="h3-responsive">Soluções através do aprendizado de máquina</h3>
                             </div>
-                            <p>Machine Learning e AI</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!--Mask color-->
                         <div class="view">
                         <img class="d-block w-100" src="static/images/intro4.jpg"
                             alt="Third slide">
@@ -122,20 +110,15 @@ body{
                         </div>
                     </div>
                     </div>
-                    <!--/.Slides-->
-                    <!--Controls-->
                     <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
                     </a>
-                    <!--/.Controls-->
-                </div>
-                <!--/.Carousel Wrapper-->
-            </div>
+                </div> -->
 
             <!--End Intro-->
 
@@ -146,278 +129,247 @@ body{
 
             <!--About-->
 
-            <p>
-                Programador Python,
-                experiência com Machine Learning para classificação, regressão, processamento de linguagens naturais, 
-                séries temporais e detecção de anomalias, além de desenvolvimento de APIs REST via Flask. Atualmente faz parte
-                da equipe de ciência de dados na Builtcode - The Cognitive Company.
-                <br>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <a href="https://www.linkedin.com/in/erickfasterra/" class="title">Linkedin</a>
-            </p>
+            <div class="row">
+              <div class="col-3">
+                <img class="img-fluid" src="static/images/fff.jpg" alt="foto" width="500px">
+              </div>
+              <div class="col-9">
+                <p>
+                  Programador Python,
+                  experiência com Machine Learning para classificação, regressão, processamento de linguagens naturais, 
+                  séries temporais e detecção de anomalias, além de desenvolvimento de APIs REST via Flask. Atualmente faz parte
+                  da equipe de ciência de dados na Builtcode - The Cognitive Company.
+                  <br>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <a href="https://www.linkedin.com/in/erickfasterra/" class="title">Linkedin</a>
+              </p>
+              </div>
+            </div>
+
 
             <!-- End About-->
 
+            <!-- Begin Services -->
+
+            <hr>
+            <div id="section3"></div>
+            <h2>Serviços</h2>
+            <br>
+                
+
+              <div class="row">
+                <!-- Service 1 -->
+                <div class="col-12 col-md-6">
+                  <div class="row">
+                    <div class="col col-3">
+                      <img class= "img-fluid float-left ml-3" src="static/img/nlp.jpg" width="200px" height="200px" alt="Lamp">
+                    </div>
+                    <div class="col col-9">
+                      <h5>Processamento de Linguagem Natural</h5>
+                      <p>Desenvolvo soluções que envolvem Chatbots, análise de sentimentos, classificação de textos e análises sintáticas, semânticas, léxicas e morfológicas da informação.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col">
+                  <div class="row">
+                    <div class="col col-3">
+                      <img class= "img-fluid float-left ml-3" src="static/img/vc.jpg" width="200px" height="200px" alt="Lamp">
+                    </div>
+                    <div class="col col-9">
+                      <h5>Visão Computacional</h5>
+                      <p>Soluções que envolvem reconhecimento facial, detecção de objetos, tratamento e classificação de imagens e videos, remoção de ruídos, dentre outros.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row">
+                <!-- Service 3 -->
+                <div class="col-12 col-md-6">
+                  <div class="row">
+                    <div class="col col-3">
+                      <img class= "img-fluid float-left ml-3" src="static/img/deep.jpg" width="200px" height="200px" alt="Lamp">
+                    </div>
+                    <div class="col col-9">
+                      <h5>Deep Learning</h5>
+                      <p>Soluções com Inteligência Artificial baseada em redes neurais profundas para regressão, classificação, detecção de anomalias, séries temporais, etc.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col">
+                  <div class="row">
+                    <div class="col col-3">
+                      <img class= "img-fluid float-left ml-3" src="static/img/dashboard.jpg" width="200px" height="200px" alt="Lamp">
+                    </div>
+                    <div class="col col-9">
+                      <h5>Dashboards</h5>
+                      <p>Centralizo as informações mais importantes para auxiliar na tomada de decisões. Podem também fornecer soluções visuais em IA.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
         <hr>
-        <div id="section3">
-            <h2>Projetos Pessoais</h2>
+        <div id="section4">
+            <h2>Projetos</h2>
+            <br>
             
             <!-- Projects -->
 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="card h-100">
-                          <!--Card image-->
-                          <div class="view overlay">
-                            <img class="card-img-top" src="static/images/fresa.jpg" alt="Card image cap">
-                            <a href="#!">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body">
-                    
-                            <!--Title-->
-                            <h4 class="card-title">Previsão de Rugosidade em Peças Usinadas</h4>
-                            <!--Text-->
-                            <p class="card-text">Aplicação de Machine Learning para a previsão da rugosidade superficial de materiais após usinagem.
-                            </p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="https://github.com/Erick-Faster/poster-usinagem/blob/main/Poster_2019_Erick_Fasterra_da_Silva%20v3.pdf" class="btn btn-primary">Poster</a>
-                    
-                          </div>
-                    
-                        </div>
-                        <!-- Card -->
-                      </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="card h-100">
-                          <!--Card image-->
-                          <div class="view overlay">
-                            <img class="card-img-top" src="static/images/project4.jpg"
-                              alt="Card image cap">
-                            <a href="#!">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body">
-                    
-                            <!--Title-->
-                            <h4 class="card-title">Gerbot API</h4>
-                            <!--Text-->
-                            <p class="card-text">Chatbot que interage com estudantes do idioma alemão,
-                               além de corrigir erros gramaticais do nível A1. Inclui API cognitiva e Front-End</p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="https://github.com/Erick-Faster/gerbot-api" class="btn btn-primary">Github</a>
-                    
-                          </div>
-                    
-                        </div>
-                        <!-- Card -->
-                      </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="card h-100">
-                          <!--Card image-->
-                          <div class="view overlay">
-                            <img class="card-img-top" src="static/images/previsao.jpg"
-                              alt="Card image cap">
-                            <a href="#!">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body">
-                    
-                            <!--Title-->
-                            <h4 class="card-title">Toolbox para Séries Temporais</h4>
-                            <!--Text-->
-                            <p class="card-text">Análise de séries temporais utilizando ARIMA, SARIMAX, LSTM, Prophet e Sktime</p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <button type="button" class="btn btn-secondary" disabled>Notebook em breve</button>
-                    
-                          </div>
-                    
-                        </div>
-                        <!-- Card -->
-                    </div>
-                  <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img class="card-img-top" src="static/images/twitter.jpg"
-                          alt="Card image cap">
-                        <a href="#!">
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                
-                      <!--Card content-->
-                      <div class="card-body">
-                
-                        <!--Title-->
-                        <h4 class="card-title">Gerador de Tweets</h4>
-                        <!--Text-->
-                        <p class="card-text">Geração de Tweets que imita estilo de escrita do autor, baseado na extração de tweets antigos.
-                        </p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <a href="https://github.com/Erick-Faster/twitter-generator/blob/master/Tweets-Generator.ipynb" class="btn btn-primary">Notebook</a>
-                
-                      </div>
-                
-                    </div>
-                    <!-- Card -->
+              <!-- Projeto 1 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/face-scheme2.jpg"
+                    class="card-img-top"
+                    alt="facial scheme"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Avaliação de PFP</h5>
+                    <p class="card-text">
+                      Plataforma digital para monitoramento clínico remoto e suporte na reabilitação facial de indivíduos com paralisia facial.
+                    </p>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img class="card-img-top" src="static/images/anomalia1.jpg"
-                          alt="Card image cap">
-                        <a href="#!">
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                
-                      <!--Card content-->
-                      <div class="card-body">
-                
-                        <!--Title-->
-                        <h4 class="card-title">Detecção de Anomalias</h4>
-                        <!--Text-->
-                        <p class="card-text">Projeto de previsão e detecção de anomalias para um Dataset extraído do Kaggle.
-                        </p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <button type="button" class="btn btn-secondary" disabled>Notebook em breve</button>
-                
-                      </div>
-                
-                    </div>
-                    <!-- Card -->
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projeto1Modal">
+                      Detalhes
+                    </button>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card h-100">
-                      <!--Card image-->
-                      <div class="view overlay">
-                        <img class="card-img-top" src="static/images/characterlevel.jpg"
-                          alt="Card image cap">
-                        <a href="#!">
-                          <div class="mask rgba-white-slight"></div>
-                        </a>
-                      </div>
-                
-                      <!--Card content-->
-                      <div class="card-body">
-                
-                        <!--Title-->
-                        <h4 class="card-title">NLP Character-level</h4>
-                        <!--Text-->
-                        <p class="card-text">Análise da previsão de gêneros dos substantivos em alemão utilizando NLP char-level e LSTM
-                        </p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <button type="button" class="btn btn-secondary" disabled>Notebook em breve</button>
-                
-                      </div>
-                
-                    </div>
-                    <!-- Card -->
-                  </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="card h-100">
-                        <!--Card image-->
-                        <div class="view overlay">
-                          <img class="card-img-top" src="static/images/project3.jpg" alt="Card image cap">
-                          <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                          </a>
-                        </div>
-                  
-                        <!--Card content-->
-                        <div class="card-body">
-                  
-                          <!--Title-->
-                          <h4 class="card-title">Projeto Corona Market</h4>
-                          <!--Text-->
-                          <p class="card-text">Site para conectar voluntários de uma comunidade dispostos à realizar compras para pessoas em grupo de risco
-                            em tempos de Covid-19. Inclui API e Front-End</p>
-                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                          <a href="https://github.com/Erick-Faster/corona-market-api" class="btn btn-primary">Github</a>
-                  
-                        </div>
-                  
-                      </div>
-                      <!-- Card -->
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="card h-100">
-                        <!--Card image-->
-                        <div class="view overlay">
-                          <img class="card-img-top" src="static/images/project2.jpg" alt="Card image cap">
-                          <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                          </a>
-                        </div>
-                  
-                        <!--Card content-->
-                        <div class="card-body">
-                  
-                          <!--Title-->
-                          <h4 class="card-title">Buscador de Artigos Relacionados ao Covid-19</h4>
-                          <!--Text-->
-                          <p class="card-text">Aplicação que realiza busca de conjunto de palavras-chave em + de 60 mil artigos científicos relacionados ao Covid-19,
-                            extraídos do Kaggle.</p>
-                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                          <button type="button" class="btn btn-secondary" disabled>Link em breve</button>
-                  
-                        </div>
-                  
-                      </div>
-                      <!-- Card -->
-                    </div>
-              
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="card h-100">
-                        <!--Card image-->
-                        <div class="view overlay">
-                          <img class="card-img-top" src="static/images/niqueis.jpg"
-                            alt="Card image cap">
-                          <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                          </a>
-                        </div>
-                  
-                        <!--Card content-->
-                        <div class="card-body">
-                  
-                          <!--Title-->
-                          <h4 class="card-title">Multi Armed Bandit Problem aplicado ao Covid-19</h4>
-                          <!--Text-->
-                          <p class="card-text">Análise superficial da chance de contágio por Covid-19 utilizando alguns conceitos de aprendizado por reforço</p>
-                          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                          <button type="button" class="btn btn-secondary" disabled>Link em breve</button>
-                  
-                        </div>
-                  
-                      </div>
-                      <!-- Card -->
-                    </div>
-              
-                  </div>
+                </div>
               </div>
 
-              <!-- End Projects -->
-            
+              <!-- Projeto 2 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/scheme-credit.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Análise de Crédito</h5>
+                    <p class="card-text">
+                      API para avaliação de risco de crédito utilizando o padrão de projeto baseado em Pipelines do Sklearn
+                    </p>
+                  </div>
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projeto2Modal">
+                      Detalhes
+                    </button>  
+                  </div>
+                </div>
+              </div>
+
+              <!-- Projeto 3 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/fresa.jpg"
+                    class="card-img-top"
+                    alt="Fresa-Engenharia"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Previsão de Rugosidade em Peças Usinadas</h5>
+                    <p class="card-text">
+                      Aplicação de Machine Learning para a previsão da rugosidade superficial de materiais após usinagem.
+                    </p>
+                  </div>
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projeto3Modal">
+                      Detalhes
+                    </button>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+              <!-- Projeto 4 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/gerbot-card.jpg"
+                    class="card-img-top"
+                    alt="Gerbot"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">GerBot</h5>
+                    <p class="card-text">
+                      Chatbot que interage com estudantes do idioma alemão,
+                      além de corrigir erros gramaticais do nível A1. Inclui API cognitiva
+                    </p>
+                  </div>
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projeto4Modal">
+                      Detalhes
+                    </button>                  
+                  </div>
+                </div>
+              </div>
+
+              <!-- Projeto 5 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/abertos-logo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Dados Abertos</h5>
+                    <p class="card-text">
+                      Conversão das descrições dos dados abertos de importações brasileiras para classes de produtos
+                    </p>
+                  </div>
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projeto5Modal">
+                      Detalhes
+                    </button>                  
+                  </div>
+                </div>
+              </div>
+
+              <!-- Projeto 6 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="static/img/tweet-card.jpg"
+                    class="card-img-top"
+                    alt="Fresa-Engenharia"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Extração e Geração de Tweets</h5>
+                    <p class="card-text">
+                      Geração de Tweets que imita estilo de escrita do autor, baseado na extração de tweets antigos.
+                    </p>
+                  </div>
+                  <div class="card-footer" style="background-color: white; border-top: none;">
+                    <a href="https://github.com/Erick-Faster/twitter-generator/blob/master/Tweets-Generator.ipynb" class="btn btn-info">Notebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
         </div>
+
+        <!-- End Projects -->
+
         <hr>
-        <h2>Skills</h2>
-        <p>Habilidades mais relevantes de programação</p>
-        <div id="section4dot1">
+        <h2>Tecnologias</h2>
+        <!-- <p>Algumas habilidades relevantes de programação</p> -->
+        <div id="section5">
             <h4>Python</h4>
 
 
@@ -430,7 +382,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/flask1.png" title="Flask" alt="Flask">
+                          <img class="card-img-top img-fluid" src="static/images/flask1.png" title="Flask" alt="Flask">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -438,7 +390,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/spacy1.png" title="SpaCy" alt="Spacy">
+                          <img class="card-img-top img-fluid" src="static/images/spacy1.png" title="SpaCy" alt="Spacy">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -446,7 +398,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/tensor1.png" title="Tensorflow" alt="Tensorflow">
+                          <img class="card-img-top img-fluid" src="static/images/tensor1.png" title="Tensorflow" alt="Tensorflow">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -454,7 +406,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/pandas1.png" title="Pandas" alt="Pandas">
+                          <img class="card-img-top img-fluid" src="static/images/pandas1.png" title="Pandas" alt="Pandas">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -462,7 +414,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/numpy1.png" title="Numpy" alt="Numpy">
+                          <img class="card-img-top img-fluid" src="static/img/bokeh.jpg" title="Bokeh" alt="Bokeh">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -470,7 +422,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/matplotlib1.png" title="Matplotlib" alt="Matplotlib">
+                          <img class="card-img-top img-fluid" src="static/images/matplotlib1.png" title="Matplotlib" alt="Matplotlib">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -482,7 +434,7 @@ body{
               <!-- End Python-->
         
         </div>
-        <div id="section4dot2">
+        <div id="section5dot2">
             <h4>Outros</h4>
        
             <!-- Begin Others -->
@@ -493,7 +445,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/postgre.png" title="Postgre" alt="Postgre">
+                          <img class="card-img-top img-fluid" src="static/images/postgre.png" title="Postgre" alt="Postgre">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -501,7 +453,8 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/html1.png" title="HTML5" alt="HTML5">
+                          <img class="card-img-top img-fluid" src="static/images/git1.png" title="Git" alt="Git">
+                        
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -509,7 +462,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/bootstrap1.png" title="Bootstrap4" alt="Bootstrap4">
+                          <img class="card-img-top img-fluid" src="static/images/bootstrap1.png" title="Bootstrap4" alt="Bootstrap4">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -517,7 +470,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/s31.png" title="AmazonS3" alt="AmazonS3">
+                          <img class="card-img-top img-fluid" src="static/img/ec2.jpg" title="EC2" alt="EC2">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -525,7 +478,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                       <div class="card">
                         <div class="card-body text-center">
-                          <img class="card-img-top" src="static/images/docker1.png" title="Docker" alt="Docker">
+                          <img class="card-img-top img-fluid" src="static/images/docker1.png" title="Docker" alt="Docker">
                           <p class="card-text"></p>
                         </div>
                       </div>
@@ -533,7 +486,7 @@ body{
                     <div class="col-6 col-sm-4 col-lg-2">
                         <div class="card">
                           <div class="card-body text-center">
-                            <img class="card-img-top" src="static/images/git1.png" title="Git" alt="Git">
+                            <img class="card-img-top img-fluid" src="static/img/kubernetes.jpg" title="Kubernetes" alt="Kubernetes">
                             <p class="card-text"></p>
                           </div>
                         </div>
@@ -543,366 +496,12 @@ body{
               </div>
 
               <!-- End Others -->
-      
         </div>
-        <hr>
-        <div id="section5">
-            <h2>Linha do Tempo</h2>
-            
-            <!-- Timeline -->
 
-            <div class="container">
-                <span class="font-weight-bold">2020</span>
-                <ul>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Predição de Consumo de Energia</a>
-                        </div>
-                        <p>Avaliação de diversos métodos de séries temporais para prever o consumo de energia de um cliente.
-
-                        </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] API Análise de Crédito</a>
-                        </div>
-                        <p>Desenvolvimento de uma API cognitiva que realiza analise de crédito para clientes,
-                        em conjunto com a equipe de Ciência de Dados da Builtcode.
-            
-                        </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] API para Identificação de Produtos</a>
-                        </div>
-                        <p>Desenvolvimento de uma API cognitiva que utiliza aprendizado de máquina e
-                        processamento de linguagens naturais para a identificação de produtos através de descrições dos mesmos.
-                        </p>
-                    </li>
-                        <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Portfolio</a>
-                        </div>
-                        <p>Finalizei meu portfolio profissional, desenvolvido em Python via Flask.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Corretor de Escrita em Alemão</a>
-                        </div>
-                        <p>Finalizei uma aplicação que corrige respostas para perguntas básicas em alemão, avaliando contexto, ortografia e gramática do nível A1. Esta aplicação
-                        dispõe de API para realizar a verificação e de Front-End para interagir com o usuário, ambos utilizando Flask. Este projeto permitiu unir os conhecimentos
-                        de idiomas estrangeiros com processamento de linguagens naturais em python.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Buscador de Artigos Relacionados ao Covid-19</a>
-                        </div>
-                        <p>Finalizei um projeto que realiza a busca de um conjunto de palavras-chave em mais de 60 mil artigos científicos relacionados ao Covid-19 extraídos do Kaggle</p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fas fa-coffee"></i>
-                            <a href="/" class="title">[Estudo] Machine Learning e Deep Learning</a>
-                        </div>
-                        <p>Realizei diversos cursos de Machine Learning e Deep Learning, e apliquei seus conceitos sob a orientação do Prof Felipe Teodoro, MBA em inteligência artificial e machine learning da FIAP e
-                            Sócio da empresa Builtcode. Aprendi também diversas técnicas de customização de modelos de Machine Learning utilizando o Tensorflow 2.0.  </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fas fa-coffee"></i>
-                            <a href="/" class="title">[Estudo] Processamento de Linguagens Naturais em Python</a>
-                        </div>
-                        <p>Realizei alguns cursos na Udemy focados em processamento de linguagem natural e pré-processamento de sistemas de aprendizado de máquina.
-                        Para isso, estudei ferramentas como o Pandas, Numpy, Matplotlib e SpaCy </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Corona Market - Conectar voluntários para proteger pessoas em grupo de risco</a>
-                        </div>
-                        <p>Finalizei uma aplicação em Flask que permite conectar voluntários de uma comunidade dispostos à realizar compras para pessoas em grupo de risco em tempos de Covid-19.
-                        Esta aplicação foi desenvolvida utilizando Back-End e Front-End em Flask, com Flask-Restful e Flask-Sqlalchemy. </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Projeto] Avaliação de Risk Money</a>
-                        </div>
-                        <p>Desenvolvi uma aplicação que utiliza aprendizado de máquina não-supervisionado
-                        para determinar a homologação de fornecedores, dado fatores de risk money. O projeto também incluiu a
-                        análise de clusterização do grupos homologados e não homologados, bem como a apresentação 
-                        gráfica destes dados.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-language" aria-hidden="true"></i>
-            
-                            <a href="/" class="title">[Idioma] 400 Alunos!</a>
-                        </div>
-                        <p>Um total de 400 alunos finalizaram as aulas de alemão em algum nível sob minha tutoria. Aproveito este espaço para parabeniza-los
-                        pelo empenho e pela dedicação! Vocês são demais! Devido à pandemia do novo coronavirus, comecei também a ministrar aulas no modelo EaD. 
-                        </p>
-                    </li>
-                </ul>
-            
-            
-                <span class="font-weight-bold">2019</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                        <a href="/" class="title">[Profissional] Builtcode - The Cognitive Company</a>
-                    </div>
-                    <p>Entrei na Builtcode - The Cognitive Company, integrando a equipe de ciência de dados da empresa. Uma nova oportunidade para aprender
-                    novas tecnologias em uma empresa preocupada em estar sempre atualizada no mercado de TI.
-                    </p>
-                </li>
-                    <li>
-                        <div class="icon-title">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                            <a href="/" class="title">[Pesquisa] IX Encontro de Iniciação Científica na UFABC</a>
-                        </div>
-                        <p>Apresentei trabalho científico sob o título:  
-                        "Estudo comparativo de métodos de inteligência artificial para modelagem e previsão de rugosidade em peças usinada",
-                        apresentado em simpósio e orientado pelo Professor Dr. Wallace Gusmão Ferreira. </p>
-                    </li>
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-plane" aria-hidden="true"></i>
-                        <a href="/" class="title">[Viagem] Peru</a>
-                    </div>
-                    <p>Realizei um mochilão de 3 semanas no Peru, passando por diversas cidades como Cusco, Puno,
-                    Arequipa, Ica e Lima, adquirindo um imenso conhecimento cultural sobre o país, além de realizar
-                    algumas conexões e praticar o espanhol. </p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fas fa-coffee"></i>
-                        <a href="/" class="title">[Estudo] Git e Github</a>
-                    </div>
-                    <p>Realizei dois cursos na plataforma Udemy focados em Git e Github. </p>
-                </li>
-            
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-cube" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Hobby] Miniprojetos em Python</a>
-                    </div>
-                    <p>Desenvolvi diversos miniprojetos na linguagem Python, tais como uma calculadora simples,
-                        decriptador de cifras de Vigenère e outros, a fim de aprofundar os conhecimentos em Python.  </p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Projeto] Conversor de Flash-Cards para o Memorion</a>
-                    </div>
-                    <p>Desenvolvi uma aplicação em Python que, dado como entrada uma lista de palavras em alemão, realiza web-scrapping para
-                obter suas traduções, gêneros, tipos e exemplos de frases com a utilização destas, e converte para um arquivo xlsx. no modelo
-                de flash-cards, para ser aplicado no aplicativo "Memorion", para estudo pessoal do idioma. O objetivo também foi aplicar os
-                conhecimentos obtidos no curso "Automate the Boring Stuff with Python". </p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fas fa-coffee"></i>
-                        <a href="/" class="title">[Estudo] Automate the Boring Stuff with Python</a>
-                    </div>
-                    <p>Realizei um curso na Udemy para automação de processos comumente maçantes em Python. </p>
-                </li>
-                </ul>
-            
-            
-                <span class="font-weight-bold">2018</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Uni] Bacharelado em Ciência da Computação (UFABC)</a>
-                    </div>
-                    <p>Iniciei os estudos de formação específica na Universidade Federal do ABC, na área de Ciência da Computação. </p>
-                </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-plane" aria-hidden="true"></i>
-                            <a href="/" class="title">[Viagem] Região sul do Brasil e Paraguai</a>
-                        </div>
-                        <p>Realizei um mochilão de 3 semanas, passando por Rio Grande do Sul, Santa Catarina e Paraná, além de conhecer
-                        um pedacinho do leste do Paraguai, extendendo o conhecimento cultural acerca de meu próprio país. </p>
-                    </li>
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Uni] Diploma de Bacharelado em Ciência & Tecnologia (UFABC)</a>
-                    </div>
-                    <p>Obtive o diploma do curso de Bacharelado em Ciência & Tecnologia pela Universidade Federal do ABC. Trata-se de um curso
-                    interdisciplinar que permite ao profissional desenvolver e aplicar conceitos aprofundados nas áreas de computação, química, física, biologia, matemática e humanas,
-                    incentivando-o a desencadear o processo de aprendizagem contínua.</p>
-                </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fas fa-coffee"></i>
-                            <a href="/" class="title">[Estudo] Excel Avançado</a>
-                        </div>
-                        <p>Realizei alguns cursos focados em Excel, como o "Excel 2016 - O Curso Definitivo - do Básico ao Avançado", 
-                        e outro de nível avançado, como o "Curso de VBA para Excel". </p>
-                    </li>
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-language" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Idioma] Ensino de Alemão (Nível B1) e material didático</a>
-                    </div>
-                    <p>Ministrei aulas de alemão pela primeira vez para um grupo de nível B1. Neste período, finalizei meu primeiro material
-                    didático próprio de alemão para o nível A1, o que foi bem recebido pelos alunos. Com isso, aprendi também diversas táticas
-                    para a elaboração de materiais didáticos para qualquer área em que eu possua afinidade.
-                    </p>
-                </li>
-                </ul>
-            
-            
-                <span class="font-weight-bold">2017</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <a href="/" class="title">[Voluntário] Cursinho Popular CEU São Mateus</a>
-                    </div>
-                    <p>Ministrei voluntariamente aulas de química orgânica pelo período de 2 semestres em um projeto de cursinho popular no
-                    CEU São Mateus, direcionado para alunos do ensino médio em situação de vulnerabilidade social. </p>
-                </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-plane" aria-hidden="true"></i>
-                            <a href="/" class="title">[Viagem] Bolívia e Chile</a>
-                        </div>
-                        <p>Realizei um mochilão de 3 semanas pela Bolívia e pelo Chile, adquirindo uma carga cultural enorme de ambos os países,
-                        além de realizar conexões e praticar o espanhol.
-                        </p>
-                    </li>
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-language" aria-hidden="true"></i>
-            
-                        <a href="/" class="title">[Idioma] Ensino de Alemão (Níveis A1 e A2)</a>
-                    </div>
-                    <p>Ministrei minhas primeiras aulas de alemão em grupo e em modelo particular, para os nívels A1 e A2. Obtive um excelente
-                    feedback dos alunos, o que me motivou a continuar com as aulas e à elaborar um material didático próprio.
-                    </p>
-                </li>
-                </ul>
-            
-            
-                <span class="font-weight-bold">2016</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-plane" aria-hidden="true"></i>
-                        <a href="/" class="title">[viagem] Retorno ao Brasil</a>
-                    </div>
-                    <p>No fim do ano retornei do intercâmbio na Alemanha para o Brasil, dando continuidade aos estudos na UFABC.
-                    </p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <a href="/" class="title">[Voluntário] Auxiliar em laboratório de Nanotecnologia</a>
-                    </div>
-                    <p> Auxiliei por um semestre o desenvolvimento de pesquisas científicas nos campos de Nanoxerografia e self assembly, pelo Institut für Mikro- und Nanoelektronik,
-                        Technische Universität Ilmenau. Também cursei diversas disciplinas ao longo deste semestre. </p>
-                </li>
-                    <li>
-                    <div class="icon-title">
-                        <i class="fa fa-language" aria-hidden="true"></i>
-                        <a href="/" class="title">[Idioma] Alemão Avançado C1</a>
-                    </div>
-                    <p>Realizei os cursos Deutsch als Fremdsprache B2+ (Alemão para Estrangeiros), Wissenschaftliches Schreiben B2/C1 (Alemão para Escrita Científica)
-                            e Technisches Deutsch C1 (Alemão Técnico) em Ilmenau, Alemanha.
-                    </p>
-                </li>
-                </ul>
-            
-            
-                <span class="font-weight-bold">2015</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        <a href="/" class="title">[Uni] Intercâmbio na Alemanha - Ilmenau</a>
-                    </div>
-                    <p>Ainda no intercâmbio, estudei Ciência dos Materiais na Technische Universität Ilmenau (TU Ilmenau). Neste ano, finalizei o curso de
-                    verão de alemão DaF B2, e iniciei o semestre letivo na Universidade.
-                    </p>
-                </li>
-                    <li>
-                        <div class="icon-title">
-                            <i class="fa fa-plane" aria-hidden="true"></i>
-                            <a href="/" class="title">[viagem] Intercâmbio na Alemanha - Kassel</a>
-                        </div>
-                        <p>Realizei intercâmbio acadêmico na Alemanha, patrocinado pela CAPES. Em Kassel, realizei um curso intensivo de alemão
-                        por 2 meses, obtendo assim certificação do nível B1 de alemão.
-                        </p>
-                    </li>
-            
-                </ul>   
-            
-                <span class="font-weight-bold">2014</span>
-                <ul>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <a href="/" class="title">[Voluntário] Coordenador da comissão da III Semana de Engenharia de Materiais</a>
-                    </div>
-                    <p> Atuei como coordenador voluntário na comissão de organização da III Semana de Engenharia de Materiais na UFABC. O objetivo do evento foi
-                        de aproximar os alunos da Universidade com as empresas, e contou com a participação de diversas empresas do ramo. </p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                        <a href="/" class="title">[Pesquisa] IV Encontro de Iniciação Científica na UFABC</a>
-                    </div>
-                    <p>Apresentei trabalho científico sob o título
-                        "Avaliação Reológica de Suspensões de Alumina com Policloreto de Alumínio", para o IV Encontro de Iniciação Científica, realizado pela UFABC. Neste trabalho,
-                    fui orientado pelo Prof Dr. Luiz Fernando Grespan Setz.</p>
-                </li>
-                <li>
-                    <div class="icon-title">
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                        <a href="/" class="title">[Profissional] Programa de Educação Tutorial - PET</a>
-                    </div>
-                    <p>Participei por um ano e 6 meses do PET - “Programa de Educação Tutorial - Ciência, Tecnologia & Inovação”, fomentado pelo MEC. O programa é composto por 12 alunos com desempenho acadêmico excepcional, 
-                        os quais realizam atividades que englobam seus 3 pilares: pesquísa, ensino e extensão.
-                    </p>
-                </li>
-                </ul>
-            </div>
-
-            <!-- End Timeline -->
-
-        </div>
         <hr>
         <div id="section6">
             <h2>Artigos</h2>
-            <p>Em desenvolvimento...</p>   
+            <p>Em breve...</p>   
         </div>
         <hr>
         <div id="section7">
@@ -950,10 +549,240 @@ body{
         <hr>
     </div>
 
-    <footer class="small text-center text-muted">
-        <p class="copyright">Copyright &copy; 2020 | Erick Faster</p>
-      </footer>    
+    <!-- Modal -->
 
+    <!-- Projeto 1 -->
+    <div class="modal fade" id="projeto1Modal" tabindex="-1" role="dialog" aria-labelledby="projeto1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="projeto1ModalLabel">Projeto</h4>
+
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <br/>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center mt-2">House-Brackmann</h4>
+            <p class="text-center mt-2">
+              <span class="badge badge-pill badge-primary">Visão Computacional</span>
+              <span class="badge badge-pill badge-primary">Classificação</span>
+            </p>
+            <img class="img-fluid mx-auto d-block" src="static/img/facial_scheme.jpg" weight="500px", width="500px" alt="Facial">
+            <h5>Links</h5>
+            <hr>
+            <p>
+              <ul>
+                <li><a href="docs/FacialRehab.pdf">Apresentação TDC - The Developer Conference</a></li>
+              </ul>
+            </p>
+            <h5>Descrição</h5>
+            <hr>
+            <p>A Paralisia Facial Periférica (PFP) pode causar complicações diversas para os pacientes que a possuem, como dificuldades para alimentação ou limitações para se expressar. Além disso, por conta da pandemia do Sars-CoV-2, o diagnóstico da PFP torna-se ainda mais difícil com a necessidade do paciente de se deslocar para uma clínica médica.</p>
+            <p>O objetivo do projeto é a estimação do índice de House-Brackmann (HB) de um paciente que apresenta PFP, para fins de apoio à tomada de decisão médica. Este índice indica o grau de severidade da doença.</p>
+            <p>O projeto contou com a orientação de uma médica especialista na área de paralisia facial durante todo o desenvolvimento</p>
+            <img class="img-fluid mx-auto d-block" src="static/img/facial.jpg" weight="500px", width="500px" alt="Facial">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            <a href= "docs/FacialRehab.pdf" class="btn btn-primary">Ir para Apresentação</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 2 -->
+    <div class="modal fade" id="projeto2Modal" tabindex="-1" role="dialog" aria-labelledby="projeto2ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="projeto2ModalLabel">Projeto</h4>
+
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <br/>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center mt-2">Análise de Crédito</h4>
+            <p class="text-center mt-2">
+              <span class="badge badge-pill badge-primary">Classificação</span>
+              <span class="badge badge-pill badge-primary">Pipelines</span>
+            </p>
+            <img class="img-fluid mx-auto d-block" src="static/img/scheme-credit.png" weight="500px", width="500px" alt="Facial">
+            <h5>Links</h5>
+            <hr>
+            <p>
+              <ul>
+                <li><a href="https://github.com/Erick-Faster/credito-pipeline">Github</a></li>
+              </ul>
+            </p>
+            <h5>Descrição</h5>
+            <hr>
+            <p>A análise de crédito permite que uma instituição defina o valor liberado de um cartão de crédito, taxas de juros, quantidade de parcelas de pagamento de um produto, etc.</p>
+            <p>Este projeto tem como objetivo realizar a analise do risco de crédito para clientes de uma loja</p>
+            <p>O projeto conta com uma API cognitiva que se comunica com um modelo de machine learning moldado no padrão de projeto do Sklearn baseado em Pipelines, tornando o modelo altamente estruturado, escalável e de fácil manutenção. Para a visualização da API, foi utilizada a biblioteca Gradio. Todos os elementos se comunicam entre si via requisições em docker.</p>
+            <p>Para preservar informações confidenciais, o código foi restruturado para demonstração, além de ser utilizado um dataset público para tal objetivo</p>
+            <img class="img-fluid mx-auto d-block" src="static/img/menu-credit.jpg" weight="500px", width="500px" alt="Facial">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            <a href= "https://github.com/Erick-Faster/credito-pipeline" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 3 -->
+    <div class="modal fade" id="projeto3Modal" tabindex="-1" role="dialog" aria-labelledby="projeto3ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="projeto3ModalLabel">Projeto</h4>
+
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <br/>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center mt-2">Previsão de Rugosidade em Peças Usinadas</h4>
+            <p class="text-center mt-2">
+              <span class="badge badge-pill badge-primary">Regressão</span>
+              <span class="badge badge-pill badge-primary">Engenharia de Materiais</span>
+            </p>
+            <img class="img-fluid mx-auto d-block" src="static/img/fresa.jpg" weight="500px", width="500px" alt="MLP">
+            <h5>Links</h5>
+            <hr>
+            <p>
+              <ul>
+                <li><a href="https://github.com/Erick-Faster/poster-usinagem/blob/main/Poster_2019_Erick_Fasterra_da_Silva%20v3.pdf">Poster</a></li>
+              </ul>
+            </p>
+            <h5>Descrição</h5>
+            <hr>
+            <p>A predição das condições finais dos materiais após usinagem é de extrema importância devido à sua experimentação ser usualmente lenta, cara e baseada em tentativa e erro</p>
+            <p>Este projeto possui como objetivo realizar a previsão da rugosidade superficial de materiais metálicos após o processamento de fresamento.</p>
+            <p>Após avaliar as features que podem ser mensuradas no processo, foram estudados diversos modelos de Machine Learning, sendo o MLP o modelo selecionado para a aplicação.</p>
+
+            <img class="img-fluid mx-auto d-block" src="static/img/fresa-2.jpg" weight="500px", width="500px" alt="Facial">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            <a href= "https://github.com/Erick-Faster/poster-usinagem/blob/main/Poster_2019_Erick_Fasterra_da_Silva%20v3.pdf" class="btn btn-primary">Poster</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 4 -->
+    <div class="modal fade" id="projeto4Modal" tabindex="-1" role="dialog" aria-labelledby="projeto4ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="projeto4ModalLabel">Projeto</h4>
+
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <br/>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center mt-2">GerBot</h4>
+            <p class="text-center mt-2">
+              <span class="badge badge-pill badge-primary">Processamento de Linguagens Naturais</span>
+              <span class="badge badge-pill badge-primary">Chatbot</span>
+            </p>
+            <img class="img-fluid mx-auto d-block" src="static/img/gerbot-card.jpg" weight="500px", width="500px" alt="MLP">
+            <h5>Links</h5>
+            <hr>
+            <p>
+              <ul>
+                <li><a href="https://github.com/Erick-Faster/gerbot-api">Github</a></li>
+                <li><a href="https://bootsnipp.com/snippets/nNg98">Template Front-End</a></li>
+              </ul>
+            </p>
+            <h5>Descrição</h5>
+            <hr>
+            <p>Muitos estudantes de língua alemã costumam relatar dificuldades em praticar a escrita do idioma, não somente devido à dificuldade de encontrar um(a) parceiro(a) para praticar, mas também pela insegurança em cometer erros ao conversar com uma pessoa real, o que gera lacunas de aprendizagem neste contexto.</p>
+            <p>Assim, desenvolvi uma aplicação que interage com o aluno iniciante em alemão, além de realizar correções dos erros mais comuns aos iniciantes, como gêneros dos artigos masculinos, femininos e neutros, declinações nominativas, acusativas e dativas, conjugação de verbos e erros ortográficos, além de identificar possíveis erros de concordância, como inserir um objeto inanimado como país de origem</p>
+            <p>Foi aplicado assim o uso de técnicas de processamento de linguagem natural usando a biblioteca SpaCy, e empregado <i>Deep Learning</i> para o funcionamento do chatbot. O modelo foi encapsulado em uma API cognitiva, e um template front-end foi utilizado para demonstrar a aplicação</p> 
+            <img class="img-fluid mx-auto d-block" src="static/img/gerbot-top.jpg" weight="500px", width="500px" alt="Facial">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            <a href= "https://github.com/Erick-Faster/gerbot-api" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Projeto 5 -->
+    <div class="modal fade" id="projeto5Modal" tabindex="-1" role="dialog" aria-labelledby="projeto5ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="projeto5ModalLabel">Projeto</h4>
+
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <br/>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center mt-2">Dados Abertos de Importações</h4>
+            <p class="text-center mt-2">
+              <span class="badge badge-pill badge-primary">Processamento de Linguagens Naturais</span>
+              <span class="badge badge-pill badge-primary">Classificação</span>
+            </p>
+            <img class="img-fluid mx-auto d-block" src="static/img/abertos.jpg" weight="650px", width="650px" alt="MLP">
+            <h5>Links</h5>
+            <hr>
+            <p>
+              <ul>
+                <li>Base de Dados: <a href="https://siscori.receita.fazenda.gov.br/apoiosiscori/consulta.jsf">Siscori - Dados Abertos da Receita</a></li>
+              </ul>
+            </p>
+            <h5>Descrição</h5>
+            <hr>
+            <p>Os dados abertos da receita permite a consulta de um conjunto de informações sobre produtos brasileiros importados, com os seus NCMs e a descrição dos produtos</p>
+            <p>Para a empresa que realiza importações, o monitoramento dessas informações, bem com a sua classificação, pode ser imprescendivel para a gestão destes produtos. Desta forma, anteriormente cada produto era manualmente classificado em planilhas eletrônicas, o que demandava muito tempo e esforço por parte do operador</p>
+            <p>Por isso, foi desenvolvida uma API cognitiva com a finalidade de realizar a classificação automática de produtos importados através do processamento de linguagens naturais e Deep Learning</p>
+            <small>Informações adicionais não podem ser providas por questões de privacidade</small>
+            <!-- <img class="img-fluid mx-auto d-block" src="static/img/abertos.jpg" weight="500px", width="500px" alt="Facial"> -->
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="small text-center text-muted">
+        <p class="copyright">Copyright &copy; 2021 | Erick Faster</p>
+    </footer>    
+
+
+      
 </body>
 
 
